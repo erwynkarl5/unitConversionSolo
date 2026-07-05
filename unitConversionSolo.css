@@ -28,13 +28,13 @@
             color: #ffffff;
             text-align: center;
             padding: 10px;
-            border: 2px solid #000000;
+            border: 2px solid grey;
             border-radius: 8px;
-            width: 100px;
-            height: 40px;
+            width: 120px;
+            height: 65px;
             font-size: 24px;
             outline: none;
-            margin-bottom: 10px;
+            margin: 20px 0;
         }
 
         #convert-btn {
