@@ -43,3 +43,22 @@
 // console.log(getGrade(71))  // C
 // console.log(getGrade(55)) 
 
+const cart = ["bread", "milk", "eggs", "butter", "coffee"]
+
+// 1. First item
+cart[0]
+
+// 2. Last item
+console.log(cart[cart.length - 1])
+
+// 3. Total number of items
+console.log(cart.length)
+
+// 4. Change "milk" to "oat milk"
+cart[1] = 'oat milk'
+
+
+
+
+// 5. Log the updated cart
+console.log(cart)
