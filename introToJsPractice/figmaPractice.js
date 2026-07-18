@@ -1,45 +1,41 @@
-// const birthYear = 1999
-// let currentYear = 2025  
+// const cart = ["bread", "milk", "eggs", "butter", "coffee"]
 
-// const age = currentYear - birthYear 
+// // 1. First item
+// cart[0]
 
-// console.log(age)
+// // 2. Last item
+// console.log(cart[cart.length - 1])
 
+// // 3. Total number of items
+// console.log(cart.length)
 
-// const adjective = 'fluffy'
-// const noun = 'cat'
-// const verb = 'jumped'
-
-// const sentence = 'The' + ' ' + adjective +' ' +  noun + ' ' + verb + ' quickly.'
-
-// console.log(sentence)
-
-// function getGrade(score) {
-//   // Use if / else if / else
-
-// const A = 'A'
-// const B = 'B'
-// const C = 'C'
-// const D = 'D'
-// const F = 'F'
-
-// if (score >= 90) {
-// return A
-// } else if (score >= 80) {
-// return B
-// } else if (score >= 70) {
-// return C
-// } else if (score >= 60) {
-// return D
-// } else {
-// return F
-// }
-//  }
+// // 4. Change "milk" to "oat milk"
+// cart[1] = 'oat milk'
 
 
 
-// console.log(getGrade(95))  // A
-// console.log(getGrade(82))  // B
-// console.log(getGrade(71))  // C
-// console.log(getGrade(55)) 
 
+// // 5. Log the updated cart
+// console.log(cart)
+const playlist = ["Stairway to Heaven", "Hotel California", "Smells Like Teen Spirit"]
+
+// 1. Add "Bohemian Rhapsody" to the end
+ playlist.push('Bohemian Rhapsody')
+
+
+// 2. Add "Imagine" to the beginning
+const add = playlist.push('Imagine')
+
+
+// 3. Remove the last song, log it
+const remove = playlist.pop() 
+
+
+// 4. Is "Hotel California" in the list?
+const removeH = playlist.pop()
+
+
+// 5. Log as a string joined by " → "
+playlist.unshift('Imagine')
+playlist.pop()
+console.log(playlist)
