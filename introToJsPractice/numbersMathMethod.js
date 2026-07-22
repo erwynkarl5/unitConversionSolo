@@ -13,6 +13,3 @@ console.log(`Tip: $${tipAmount} | Total: $${total}`)
 // The Math object has useful methods like Math.round(), Math.floor(), Math.ceil(), Math.random(), and Math.abs().
 
 
-
-
-

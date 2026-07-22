@@ -19,24 +19,25 @@
 // console.log(cart)
 
 
-// const playlist = ["Stairway to Heaven", "Hotel California", "Smells Like Teen Spirit"]
+const playlist = ["Stairway to Heaven", "Hotel California", "Smells Like Teen Spirit"]
 
 // // 1. Add "Bohemian Rhapsody" to the end
-// playlist.push('Bohemian Rhapsody')
+// console.log(playlist.push('Bohemian Rhapsody'))
 
 // // 2. Add "Imagine" to the beginning
-// playlist.unshift('Imagine')
+// console.log(playlist.unshift('Imagine'))
 
 // // 3. Remove the last song, log it
-// const remove = playlist.pop()
-
+// console.log(playlist)
+// console.log(playlist.pop())
 
 // // 4. Is "Hotel California" in the list?
-// console.log(playlist)
-
+// console.log(playlist.length[2])
 
 // // 5. Log as a string joined by " → "
+// console.log(playlist.join(' → '))
 // playlist.pop()
+
 
 
 const products = [
