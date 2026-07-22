@@ -26,4 +26,4 @@ for (const price of prices) {
 if (price > highest)
 highest = price 
 }
-console.log("Highest: $" + highest)
+console.log("Highest: $" + highest.toFixed(2))
